@@ -7,8 +7,8 @@ deploy:
   edge: true
   provider: bluemixcloudfoundry
   skip_cleanup : true
-  username: apikey
-  password: -pwA-m5MmRgCTAVV1q0RyB1nSWuzGGjIW97x4DHc8VW-
+  username: aourarhikram3@gmail.com
+  password: Aourarh123@
   organization: aourarhikram3@gmail.com
   space: dev
   manifest: manifest.yml
