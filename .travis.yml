@@ -7,9 +7,9 @@ deploy:
   edge: true
   provider: bluemixcloudfoundry
   skip_cleanup : true
-  username: aourarhikram3@gmail.com
+  username: projectnode123@gmail.com
   password: Aourarh123@
-  organization: aourarhikram3@gmail.com
+  organization: projectnode123@gmail.com
   space: dev
   manifest: manifest.yml
   on:
