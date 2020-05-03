@@ -2,3 +2,5 @@ applications:
 - name: noderedossspg
   memory: 256MB
   instances: 1
+  domain: mybluemix.net
+  disk_quota: 1024M
