@@ -8,7 +8,9 @@ deploy:
   provider: bluemixcloudfoundry
   username: apikey
   password:"-pwA-m5MmRgCTAVV1q0RyB1nSWuzGGjIW97x4DHc8VW-"
-  organization: aou.ikram@gmail.com
+  organization: aourarhikram3@gmail.com
   space: dev
   manifest: manifest.yml
+  on:
+     branch: master
   
