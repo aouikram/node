@@ -1,0 +1,14 @@
+language: node_js
+node_js:
+    - "node"
+install: true
+script: echo "Skipping build"
+deploy:
+  edge: true
+  provider: bluemixcloudfoundry
+  username: apikey
+  organization: aou.ikram@gmail.com
+  space: dev
+  manifest: manifest.yml
+  user:"__token__"
+  password:"pypi-AgEIcHlwaS5vcmcCJDk4M2VlZDNkLWQ0YmItNGUxMi1iMDAxLTAwYzllNzQxMWM4YwACJXsicGVybWlzc2lvbnMiOiAidXNlciIsICJ2ZXJzaW9uIjogMX0AAAYgdUZN1_utLHB6_BmwW1HiH-3jvNsRH648Qm_uf22vk5c"

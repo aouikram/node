@@ -1,0 +1,4 @@
+applications:
+- name: noderedossspg
+  memory: 256MB
+  instances: 1
