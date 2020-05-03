@@ -9,8 +9,7 @@ deploy:
   skip_cleanup : true
   username: apikey
   password: 2pEk-v-LF6TsMzGbofYm4OdcnDiNQmKo2m0nAARdzFsP
-  organization: projectnode123@gmail.com
-  space: dev
+  
   manifest: manifest.yml
   on:
      branch: master
